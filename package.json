@@ -1,0 +1,29 @@
+{
+  "name": "htc-mail-template",
+  "version": "1.0.0",
+  "description": "just a react email app for hack the crous",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "email dev",
+    "build": "bun emails/template.ts > mail.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-email/button": "0.0.10",
+    "@react-email/column": "0.0.7",
+    "@react-email/container": "0.0.8",
+    "@react-email/font": "0.0.3",
+    "@react-email/heading": "0.0.9",
+    "@react-email/html": "0.0.4",
+    "@react-email/img": "0.0.5",
+    "@react-email/render": "0.0.7",
+    "@react-email/row": "0.0.5",
+    "@react-email/text": "0.0.5",
+    "react-email": "1.9.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.23"
+  }
+}
